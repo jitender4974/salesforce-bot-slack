@@ -10,7 +10,7 @@ let nforce = require('nforce'),
     org = nforce.createConnection({
         clientId: SF_CLIENT_ID,
         clientSecret: SF_CLIENT_SECRET,
-        redirectUri: 'http://localhost:3000/oauth/_callback',
+        redirectUri: 'https://obscure-beach-84932.herokuapp.com/oauth/_callback',
         mode: 'single',
         autoRefresh: true
     });
